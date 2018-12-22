@@ -9,11 +9,16 @@
 [![Github issues](https://img.shields.io/github/issues/stfsy/node-modules-scan.svg)](https://github.com/stfsy/node-modules-scan/issues)
 [![License](https://img.shields.io/npm/l/modules-scan.svg)](https://github.com/stfsy/node-modules-scan/blob/master/LICENSE)
 
-Utility library
+Utility library to search for Types/Classes/Subclasses in project folders.
 
 ## Example
 
 ```js
+const requireType = require('scan-modules').byType
+const BaseType = require(resolve('test/assets/base-info-contributor'))
+
+// find all subclasses of base type and instantiate them
+const contributors = requireType(".", BaseType, {excludeBaseType: true}).map(Constructor => new Constructor())
 
 ```
 

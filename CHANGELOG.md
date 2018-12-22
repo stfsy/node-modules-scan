@@ -1,3 +1,13 @@
+<a name="0.2.0"></a>
+# [0.2.0](https://github.com/stfsy/node-modules-scan/compare/v0.1.0...v0.2.0) (2018-12-22)
+
+
+### Features
+
+* update dependencies ([c524039](https://github.com/stfsy/node-modules-scan/commit/c524039))
+
+
+
 <a name="0.1.0"></a>
 # 0.1.0 (2017-11-29)
 

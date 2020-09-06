@@ -14,7 +14,7 @@ Utility library to search for Types/Classes/Subclasses in project folders.
 ## Example
 
 ```js
-const requireType = require('scan-modules').byType
+const requireType = require('modules-scan').byType
 const BaseType = require(resolve('test/assets/base-info-contributor'))
 
 // find all subclasses of base type and instantiate them

@@ -5,6 +5,7 @@ const resolve = require('path').resolve
 
 const requireType = require(resolve('lib/require-type'))
 const BaseType = require(resolve('test/assets/base-info-contributor'))
+const AnotherBaseType = require(resolve('test/assets/another-base-type'))
 const dir = resolve('test/assets')
 
 describe('RequireType', () => {
@@ -32,5 +33,10 @@ describe('RequireType', () => {
     it('should not search in nested folders', () => {
         const contributors = requireType(resolve('lib'), BaseType, {recursive: false}).map(Constructor => new Constructor())
         expect(contributors.length).to.equal(0)
+    })
+    it('should include instances of base type', () => {
+        const instance = requireType(dir, AnotherBaseType, {excludeBaseType: true})
+        expect(instance.length).to.equal(1)
+        expect(instance[0].hello()).to.equal('world')
     })
 })

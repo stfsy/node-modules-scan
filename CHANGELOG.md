@@ -1,3 +1,13 @@
+# [0.8.0](https://github.com/stfsy/node-modules-scan/compare/v0.7.0...v0.8.0) (2021-05-13)
+
+
+### Features
+
+* update outdated dependencies ([4982242](https://github.com/stfsy/node-modules-scan/commit/4982242ad5194cee2daca52ef2d460583af1895e))
+* update vulnerable dependencies ([2fe0cf3](https://github.com/stfsy/node-modules-scan/commit/2fe0cf30a0fc7fb915a3d537698a8e965b01c7b0))
+
+
+
 # [0.7.0](https://github.com/stfsy/node-modules-scan/compare/v0.6.0...v0.7.0) (2021-05-13)
 
 

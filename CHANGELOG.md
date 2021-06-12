@@ -1,3 +1,7 @@
+# [1.0.0](https://github.com/stfsy/node-modules-scan/compare/v0.8.0...v1.0.0) (2021-06-12)
+
+
+
 # [0.8.0](https://github.com/stfsy/node-modules-scan/compare/v0.7.0...v0.8.0) (2021-05-13)
 
 

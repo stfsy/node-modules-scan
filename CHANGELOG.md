@@ -1,3 +1,12 @@
+## [1.0.1](https://github.com/stfsy/node-modules-scan/compare/v1.0.0...v1.0.1) (2021-07-05)
+
+
+### Features
+
+* run npm update and audit ([b5833d3](https://github.com/stfsy/node-modules-scan/commit/b5833d329d30ec75f18aea929acf40a2caa051da))
+
+
+
 # [1.0.0](https://github.com/stfsy/node-modules-scan/compare/v0.8.0...v1.0.0) (2021-06-12)
 
 

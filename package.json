@@ -32,7 +32,7 @@
     "devDependencies": {
         "chai": "^4.3.7",
         "chai-spies": "^1.0.0",
-        "conventional-changelog-cli": "^2.2.2",
+        "conventional-changelog-cli": "^3.0.0",
         "istanbul": "^0.4.4",
         "jsdoc": "^4.0.2",
         "minami": "^1.1.1",
